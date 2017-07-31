@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>联宠店铺</title>
+  <!--动态设置viewport-->
+  <script src="antm-viewport.min.js"></script>
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="index.css" />
+  <script>
+    //引入Promise 的fallBack支持(部分安卓手机不支持Promise);
+    if(!window.Promise) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
+    }
+  </script>
+</head>
+<body>
+<div id="root"></div>
+<script src="index.js"></script>
+<!--引用FastClick库-->
+<script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+<script>
+  //FastClick 消除在移动浏览器上触发click时间与一个物理敲击之间的300ms延迟。
+  if ('addEventListener' in document) {
+    window.addEventListener('load', function() {
+      FastClick.attach(document.body);
+    }, false);
+  }
+</script>
+</body>
+</html>

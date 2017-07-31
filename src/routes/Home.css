@@ -1,0 +1,33 @@
+
+.normal {
+}
+.content{
+  background: #fff;
+  padding: 0.3rem;
+  margin-bottom: 0.4rem;
+}
+.busTitle{
+  font-size: 0.3rem;
+  color: #212121;
+  margin-bottom: 0.25rem;
+}
+.phone{
+  color: #212121;
+  font-size: 0.25rem;
+  margin-bottom: 0.1rem;
+}
+.area{
+  color: #212121;
+  font-size: 0.25rem;
+}
+.wordContent{
+  background-color: #fff;
+  padding: 0.4rem 0;
+}
+.wordStyle{
+  font-size: 0.3rem;
+  color: #212121;
+}
+.num{
+  margin-bottom: 0.2rem;
+}

@@ -1,0 +1,14 @@
+.am-list-item .am-list-line-multiple{
+  padding: 0 0.2rem 0 0!important;
+}
+.am-list-item{
+  height: 0.4rem!important;
+  line-height: 0.4rem!important;
+}
+.content___uBg-7 .am-list-item .am-input-label.am-input-label-5{
+  width: 0.6rem;
+  margin-right: 0rem;
+}
+input:-webkit-autofill{
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
