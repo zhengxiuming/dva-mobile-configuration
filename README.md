@@ -11,14 +11,20 @@
 
 ### 知识点记录
 #### 路由跳转
-	 **跳转**:dispatch(routerRedux.push({
+**跳转** :
+  
+    dispatch(routerRedux.push({
       pathname: '/path',
       query:{
         key:value
       }
     }));
-    **返回上一页**：dispatch(routerRedux.goBack());
-    **接受url传递的query**：loaction.query;
+**返回上一页**：
+  
+    dispatch(routerRedux.goBack());
+**接受url传递的query**：
+
+    loaction.query;
     
 
 
