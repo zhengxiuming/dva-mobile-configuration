@@ -19,7 +19,9 @@
     }));
     返回上一页:dispatch(routerRedux.goBack());
     接受url传递的query：loaction.query;
-    
+#### 添加两个类名
+    直接使用className={styles.class1 styles.class2},是不可以的，我们可以使用拼接字符串的方式。
+    classNames={`${styles.class1} ${styles.class2}`} 或者 className={styles.class1 + '' + styles.class2}
 
 
 
